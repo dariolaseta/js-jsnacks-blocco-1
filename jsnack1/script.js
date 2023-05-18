@@ -5,4 +5,8 @@ for(i = 0; i < 10; i++){
     finalNumber += userNumber;
 }
 
+if(isNaN(finalNumber)){
+    console.log("Inserisci un numero valido.");
+}
+
 console.log(finalNumber);
